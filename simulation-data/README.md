@@ -25,7 +25,7 @@ where x_j is the distance the amide hydrogen and oxygen H-bond acceptors j, x_h 
 
 The analyzed N_c and N_h for each amide, calculated for a specific (x_c, x_h, b) tuple are stored in a series of numpy arrays named:
 
-`result1/avg_Nc_Nh_xc6.5_xh2.3_b7.npy`
+`result1/b7/avg_Nc_Nh_xc6.5_xh2.3_b7.npy`
 
 The first column of this file are the <N_c> for each amide; the second column is <N_h>.
 
@@ -35,7 +35,7 @@ The first 72 rows are the ubiquitin amides; the last 30 rows are the BPTI amides
 >>> x_c = 6.5   # Angstroms
 >>> x_h = 2.3 # Angstroms
 >>> b = 7
->>> datafile = 'result1/avg_Nc_Nh_xc%0.1f_xh%0.1f_b%d.npy'%(x_c, x_h, b)  
+>>> datafile = 'result1/b%d/avg_Nc_Nh_xc%0.1f_xh%0.1f_b%d.npy'%(b, x_c, x_h, b)  
 >>> data = np.load(datafile)
 >>> data.shape
  (102, 2)

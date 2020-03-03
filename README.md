@@ -10,6 +10,16 @@ Scripts for calculating the posterior distribution of ln PF model parameters as 
 
 `posterior`  - scripts to do the posterior sampling of ln PF forward model parameters
 
+## Requirements
+
+The scripts are written in python 3 Jupyter notebooks.
+
+The Anaconda python distribution is recommended: https://www.anaconda.com/distribution/ . You will need:
+*  Jupyter
+* `numpy` 
+* `pandas` 
+* `matplotlib` for plotting and visualization
+
 
 ## Reference
 

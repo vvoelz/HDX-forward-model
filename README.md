@@ -12,3 +12,6 @@ Scripts for calculating the posterior distribution of ln PF model parameters as 
 
 
 ## Reference
+
+Hongbin Wan, Yunhui Ge, Asghar Razavi and Vincent A. Voelz.
+Reconciling Simulated Ensembles of Apomyoglobin with Experimental Hydrogen/Deuterium Exchange Data Using Bayesian Inference and Multiensemble Markov State Models J. Chem. Theory Comput. 2020, 16, 2, 1333-1348 https://doi.org/10.1021/acs.jctc.9b01240
